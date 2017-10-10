@@ -1,0 +1,14 @@
+Resultados:
+
+DELAY 0.00, VAZAO -, LOSS 0%.
+Reno:    [  3]  0.0-120.1 sec  1.31 GBytes  93.5 Mbits/sec
+Cubic:   [  3]  0.0-120.0 sec  1.31 GBytes  94.0 Mbits/sec
+
+DELAY 0.00, VAZAO -, LOSS 0.001%
+Reno:    [  3]  0.0-120.0 sec  1.31 GBytes  94.0 Mbits/sec
+Cubic:   [  3]  0.0-120.0 sec  1.31 GBytes  94.0 Mbits/sec
+
+DELAY 0.00, VAZAO -, LOSS 0.01%
+Reno:    [  3]  0.0-120.0 sec  1.31 GBytes  94.0 Mbits/sec
+Cubic:   [  3]  0.0-120.0 sec  1.31 GBytes  94.0 Mbits/sec
+
