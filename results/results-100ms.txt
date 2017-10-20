@@ -1,0 +1,71 @@
+==> 100ms-0-0.001-bbr.txt <==
+[  3] 0.00-120.21 sec  1.27 GBytes  90.9 Mbits/sec  10424/0         55     2350K/203657 us
+
+==> 100ms-0-0.001-cubic.txt <==
+[  3] 0.00-120.02 sec  1.26 GBytes  89.9 Mbits/sec  10292/0         23     1044K/101033 us
+
+==> 100ms-0-0.001-reno.txt <==
+[  3] 0.00-120.02 sec   983 MBytes  68.7 Mbits/sec  7867/0         13     1184K/102604 us
+
+==> 100ms-0-0.001-veno.txt <==
+[  3] 0.00-120.13 sec   916 MBytes  63.9 Mbits/sec  7325/0          7     1049K/101142 us
+
+==> 100ms-0-0.01-bbr.txt <==
+[  3] 0.00-120.30 sec  1.19 GBytes  84.8 Mbits/sec  9732/0       2604     2347K/241082 us
+
+==> 100ms-0-0.01-cubic.txt <==
+[  3] 0.00-120.07 sec  1.23 GBytes  87.9 Mbits/sec  10060/0         55     1156K/101387 us
+
+==> 100ms-0-0.01-reno.txt <==
+[  3] 0.00-120.27 sec   548 MBytes  38.3 Mbits/sec  4426/0         30      359K/101145 us
+
+==> 100ms-0-0.01-veno.txt <==
+[  3] 0.00-120.00 sec   455 MBytes  31.8 Mbits/sec  3666/0         45      277K/101329 us
+
+==> 100ms-0-0.1-bbr.txt <==
+[  3] 0.00-120.08 sec  1.22 GBytes  87.5 Mbits/sec  10021/0       1037     2361K/204308 us
+
+==> 100ms-0-0.1-cubic.txt <==
+[  3] 0.00-120.10 sec  91.3 MBytes  6.38 Mbits/sec  755/0         87      123K/101440 us
+
+==> 100ms-0-0.1-reno.txt <==
+[  3] 0.00-120.50 sec   112 MBytes  7.82 Mbits/sec  992/0         73       60K/102789 us
+
+==> 100ms-0-0.1-veno.txt <==
+[  3] 0.00-120.37 sec   114 MBytes  7.95 Mbits/sec  1022/0         94       74K/101511 us
+
+==> 100ms-0-0-bbr.txt <==
+[  3] 0.00-120.12 sec  1.27 GBytes  91.0 Mbits/sec  10426/0         55     2353K/205013 us
+
+==> 100ms-0-0-cubic.txt <==
+[  3] 0.00-120.03 sec  1.17 GBytes  83.6 Mbits/sec  9564/0         19     1119K/101401 us
+
+==> 100ms-0-0-reno.txt <==
+[  3] 0.00-120.12 sec   789 MBytes  55.1 Mbits/sec  6311/0          1     1054K/101359 us
+
+==> 100ms-0-0-veno.txt <==
+[  3] 0.00-120.13 sec  1.19 GBytes  85.3 Mbits/sec  9772/0          1      748K/101188 us
+
+==> 100ms-0-10-bbr.txt <==
+[  3] 0.00-120.16 sec   715 MBytes  49.9 Mbits/sec  5740/0      57452     2350K/154879 us
+
+==> 100ms-0-10-cubic.txt <==
+[  3] 0.00-120.45 sec  4.86 MBytes   338 Kbits/sec  77/160        365        8K/101060 us
+
+==> 100ms-0-10-reno.txt <==
+[  3] 0.00-120.24 sec  5.65 MBytes   394 Kbits/sec  90/149        426       11K/106773 us
+
+==> 100ms-0-10-veno.txt <==
+[  3] 0.00-120.40 sec  6.50 MBytes   453 Kbits/sec  100/137        498        1K/100961 us
+
+==> 100ms-0-1-bbr.txt <==
+[  3] 0.00-120.01 sec  1.03 GBytes  73.8 Mbits/sec  8442/0       7873     2341K/135791 us
+
+==> 100ms-0-1-cubic.txt <==
+[  3] 0.00-120.36 sec  23.1 MBytes  1.61 Mbits/sec  247/5        198       35K/104477 us
+
+==> 100ms-0-1-reno.txt <==
+[  3] 0.00-120.42 sec  32.7 MBytes  2.28 Mbits/sec  336/7        217       11K/106415 us
+
+==> 100ms-0-1-veno.txt <==
+[  3] 0.00-120.10 sec  28.8 MBytes  2.01 Mbits/sec  271/1        214       26K/105513 us
