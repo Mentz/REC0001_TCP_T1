@@ -7,16 +7,16 @@ THR=0
 LOSS=0
 tc qdisc del dev $INTERFACE root 
 tc qdisc add dev $INTERFACE root netem delay $DL rate $THR loss $LOSS
-#iperf -c $SERVER_IP -t 120 -i 1 -p 50000 -e -Z reno >> "results/$DL-$THR-$LOSS-reno.txt"
-#iperf -c $SERVER_IP -t 120 -i 1 -p 50001 -e -Z cubic >> "results/$DL-$THR-$LOSS-cubic.txt"
-#iperf -c $SERVER_IP -t 120 -i 1 -p 50002 -e -Z bbr >> "results/$DL-$THR-$LOSS-bbr.txt"
-#iperf -c $SERVER_IP -t 120 -i 1 -p 50003 -e -Z veno >> "results/$DL-$THR-$LOSS-veno.txt"
+iperf -c $SERVER_IP -t 120 -i 1 -p 50000 -e -Z reno >> "results/$DL-$THR-$LOSS-reno.txt"
+iperf -c $SERVER_IP -t 120 -i 1 -p 50001 -e -Z cubic >> "results/$DL-$THR-$LOSS-cubic.txt"
+iperf -c $SERVER_IP -t 120 -i 1 -p 50002 -e -Z bbr >> "results/$DL-$THR-$LOSS-bbr.txt"
+iperf -c $SERVER_IP -t 120 -i 1 -p 50003 -e -Z veno >> "results/$DL-$THR-$LOSS-veno.txt"
 
 # DELAY 200, THROTTLE 0, LOSS 0.001%
 LOSS=0.001
 tc qdisc del dev $INTERFACE root 
 tc qdisc add dev $INTERFACE root netem delay $DL loss $LOSS
-#iperf -c $SERVER_IP -t 120 -i 1 -p 50000 -e -Z reno >> "results/$DL-$THR-$LOSS-reno.txt"
+iperf -c $SERVER_IP -t 120 -i 1 -p 50000 -e -Z reno >> "results/$DL-$THR-$LOSS-reno.txt"
 iperf -c $SERVER_IP -t 120 -i 1 -p 50001 -e -Z cubic >> "results/$DL-$THR-$LOSS-cubic.txt"
 iperf -c $SERVER_IP -t 120 -i 1 -p 50002 -e -Z bbr >> "results/$DL-$THR-$LOSS-bbr.txt"
 iperf -c $SERVER_IP -t 120 -i 1 -p 50003 -e -Z veno >> "results/$DL-$THR-$LOSS-veno.txt"
